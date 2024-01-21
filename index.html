@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to My Profile</h1>
+      <p>Let's begin the adventure</p>
+      <form>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+        <label for="password">Create a password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          pattern="(?=.*\d)(?=.*[a-z]).{8,15}"
+          required
+        /><br />
+        <label for="username">Enter a username:</label><br />
+        <input type="text" id="username" name="username" required /><br />
+        <label for="email-preferences">
+          Email preferences:
+          <input type="checkbox" id="email-preferences" name="email-preferences" />
+        
+        </label>
+        <br />
+        <input type="submit" value="Continue" />
+      </form>
+      <p>
+        We'll occasionally Connect with you on provided emails.
+      </p>
+      <p>Already have an account? <a href="signin.html">Sign in</a> →</p>
+    </div>
+  </body>
+</html>

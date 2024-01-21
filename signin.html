@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In </title>
+    <style>
+
+.github-signin-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.github-signin-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.github-signin-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.github-signin-form input[type="text"],
+.github-signin-form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.github-signin-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #0072ce;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.github-signin-form button[type="submit"]:hover {
+  background-color: #0066b3;
+}
+
+.github-signin-form p {
+  margin-top: 10px;
+}
+
+.github-signin-form p a {
+  color: #0072ce;
+  text-decoration: none;
+}
+
+.github-signin-form p a:hover {
+  text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <div class="github-signin-form">
+        <h1>Sign in to My Profile</h1>
+        <form>
+          <label for="username-or-email">Username or email address</label>
+          <input type="text" id="username-or-email" name="username-or-email">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+          <button type="submit">Sign in</button>
+        </form>
+        <p><a href="#">Forgot password?</a></p>
+        <p><a href="#">Sign in with a passkey</a></p>
+        <p>New to My Profile? <a href="index.html">Create an account</a></p>
+      </div>
+</body>
+</html>
